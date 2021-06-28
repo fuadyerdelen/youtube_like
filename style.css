@@ -1,0 +1,141 @@
+* {
+    font-family: Roboto,
+        Arial,
+        sans-serif;
+    ;
+}
+
+header {
+    display: flex;
+    padding: 6px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+#search_input {
+    display: inline-block;
+    width: 580px;
+    height: 30px;
+}
+
+#search_btn {
+    display: inline-block;
+    width: 61px;
+    height: 30px;
+    padding: 1px 8px 1px 8px;
+    border: 1px black solid;
+    background-color: #c0c0c01f;
+    opacity: 0.6;
+    border-radius: 0 2px 2px 0;
+}
+
+#search_btn:hover {
+    opacity: 0.9;
+}
+
+form {
+    display: flex;
+    top: 13px;
+    right: 360px;
+    width: 840px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#prfile_pic {
+    display: inline-block;
+    top: 18px;
+    right: 30px;
+    width: 32px;
+    height: 32px;
+    background-color: #867575;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f9f9f9;
+}
+
+main {
+    width: 800px;
+    height: auto;
+    padding: 1rem;
+
+}
+
+.media {
+    margin: 10px 0 0 100px;
+
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    margin-top: 10px;
+    padding: 1rem;
+
+}
+
+.aside-video {
+    display: flex;
+    align-items: flex-start;
+    margin: 3px;
+
+}
+
+h2 {
+    width: 220px;
+    font-size: 14px;
+    margin: 0 0 0 4px;
+}
+
+.commend {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.media-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.singer {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 120px;
+}
+
+.abone {
+    background-color: #c00;
+    margin-left: 200px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.who {
+    display: inline;
+    color: #867575;
+    padding: 10px;
+    font-size: 13px;
+}
+
+#img_snr {
+    border-radius: 50%;
+}
